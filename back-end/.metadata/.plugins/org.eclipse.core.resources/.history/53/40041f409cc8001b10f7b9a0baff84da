@@ -32,7 +32,7 @@
 
 	</form>
 	<button type="button" class="btn btn-primary" onclick="salvarUsuario()" >Salvar</button>
-	<button type="button" class="btn btn-secondary" onclick="document.getElementById('formCadastroUser').reset()" >Novo</button>
+	<button type="button" class="btn btn-secondary" onclick="document.getElementById((salvarUsuario))" >Novo</button>
 	
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 	<!-- Option 1: Bootstrap Bundle with Popper -->

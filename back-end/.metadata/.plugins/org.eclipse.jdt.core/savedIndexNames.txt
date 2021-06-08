@@ -44,7 +44,6 @@ INDEX VERSION 1.131+/home/byaldo/cursos/jdevtreinamento/Spring-Boot-API/back-end
 3986999644.index
 1065078204.index
 3208174556.index
-1714643842.index
 186876118.index
 192428357.index
 2592759802.index
