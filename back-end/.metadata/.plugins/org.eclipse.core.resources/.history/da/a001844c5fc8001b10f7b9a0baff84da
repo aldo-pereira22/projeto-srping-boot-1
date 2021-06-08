@@ -1,0 +1,5 @@
+package srping_boot.curso_jdev_treinamento.model;
+
+public class Usuario {
+
+}
