@@ -27,11 +27,11 @@ public class GreetingsController {
 	@Autowired /* Injeção de Dependência */
 	private UsuarioRepository usuarioRepository;
 
-	@RequestMapping(value = "/{name}", method = RequestMethod.GET)
-	@ResponseStatus(HttpStatus.OK)
-	public String greetingText(@PathVariable String name) {
-		return "Hello " + name + "!";
-	}
+//	@RequestMapping(value = "/{name}", method = RequestMethod.GET)
+//	@ResponseStatus(HttpStatus.OK)
+//	public String greetingText(@PathVariable String name) {
+//		return "index.html";
+//	}
 
 	@RequestMapping(value = "/olamundo/{nome}", method = RequestMethod.GET)
 	@ResponseStatus(HttpStatus.OK)
