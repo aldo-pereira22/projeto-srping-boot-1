@@ -73,9 +73,9 @@ public class GreetingsController {
 	
 	@DeleteMapping(value = "/delete")
 	@ResponseBody
-	public ResponseEntity<String> delete(@RequestParam Long idUser) {
+	public ResponseEntity<String> delete(@RequestParam Long iduser) {
 
-		usuarioRepository.deleteById(idUser);
+		usuarioRepository.deleteById(iduser);
 		return  new ResponseEntity<String>("Usuario deletado com sucesso", HttpStatus.OK);
 	}
 	
