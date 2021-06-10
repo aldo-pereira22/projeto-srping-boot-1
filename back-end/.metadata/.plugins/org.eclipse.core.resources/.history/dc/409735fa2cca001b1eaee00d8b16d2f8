@@ -190,7 +190,6 @@
 
 			if (idade == null || idade != null && idade.trim() == '') {
 				alert("informe a idade");
-				$("#idade").focus();
 				return;
 			}
 

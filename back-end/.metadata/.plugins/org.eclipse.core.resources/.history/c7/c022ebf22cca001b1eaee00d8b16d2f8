@@ -184,13 +184,11 @@
 
 			if (nome == null || nome != null && nome.trim() == '') {
 				alert("Iforme o nome:");
-				$("#nome").focus();
 				return;
 			}
 
 			if (idade == null || idade != null && idade.trim() == '') {
 				alert("informe a idade");
-				$("#idade").focus();
 				return;
 			}
 

@@ -184,13 +184,11 @@
 
 			if (nome == null || nome != null && nome.trim() == '') {
 				alert("Iforme o nome:");
-				$("#nome").focus();
 				return;
 			}
 
 			if (idade == null || idade != null && idade.trim() == '') {
 				alert("informe a idade");
-				$("#idade").focus();
 				return;
 			}
 
@@ -202,8 +200,7 @@
 				success: function (response) {
 
 					$("#id").val(response.id);
-					alert(" Usuário: " + response.nome + " Salvo com sucesso!");
-					document.getElementById('formCadastroUser').reset();
+					alert(" Usuáruo" + response.nome + "Salvo com sucesso!");
 				}
 			}).fail(function (xhr, status, errorThrown) {
 				console.log("Erro ao salvar" + xhr.responseText);
