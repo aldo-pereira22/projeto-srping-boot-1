@@ -36,7 +36,6 @@
 		onclick="document.getElementById('formCadastroUser').reset()">Novo</button>
 	<button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#modalPesquisaUser">Pesquisar
 	</button>
-	<button type="button" class="btn btn-warning" onclick="botaoDeletar()" >Deletar</button>
 
 
 	<div class="modal fade" id="modalPesquisaUser" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -84,13 +83,7 @@
 		integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
 		crossorigin="anonymous"></script>
 	<script type="text/javascript">
-		
-		function botaoDeletar(){
-			var id = $('#id').val();
-			deleteUser(id);
-			
-			document.getElementById('formCadastroUser').reset()
-		}
+
 
 		function deleteUser(id) {
 

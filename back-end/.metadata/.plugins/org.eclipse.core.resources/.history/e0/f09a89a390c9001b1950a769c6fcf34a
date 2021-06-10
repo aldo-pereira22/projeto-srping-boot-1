@@ -87,9 +87,7 @@
 		
 		function botaoDeletar(){
 			var id = $('#id').val();
-			deleteUser(id);
-			
-			document.getElementById('formCadastroUser').reset()
+			deleteUser(id);			
 		}
 
 		function deleteUser(id) {
